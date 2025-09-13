@@ -1,0 +1,330 @@
+body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .header {
+        background: #4f4f4f;
+        color: #fff;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 20px;
+      }
+      .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-weight: 700;
+       
+      }
+      .menu-icon {
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .brand {
+        font-size: 16px;
+      }
+      .nav-center {
+        display: flex;
+        gap: 20px;
+        margin-left: auto; 
+        margin-right: 60px;
+      }
+      .nav-center a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        opacity: 0.95;
+      }
+      .nav-right {
+        display: flex;
+        align-items: center;
+        gap: 6px; 
+        cursor: pointer;
+      }
+      .login-icon {
+        font-size: 18px;
+        color: #5b2d8e;
+      }
+      .login-text {
+        font-size: 15px;
+        color: #fff;
+      }
+
+      .line {
+  width: 100%;            
+  height: 1px;            
+  background-color: #ccc;  
+  margin: 50px 0;         
+}
+
+
+
+
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        color: #000;
+      }
+
+      .page {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 100px;
+      }
+
+      .columns {
+        display: flex;
+        gap: 175px;
+        align-items: flex-start;
+      }
+
+      
+      .left {
+        flex: 0 0 430px;
+      }
+
+      .headline {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 1.1;
+        margin: 0 0 18px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .subhead {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 0 28px;
+      }
+
+      .form-group {
+        margin-bottom: 22px;
+      }
+
+      .form-group label {
+        display: block;
+        font-weight: 700;
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+
+      .input {
+        width: 100%;
+        padding: 14px 16px;
+        font-size: 15px;
+        border: 2px solid #dcdcdc;
+        border-radius: 6px;
+      }
+      .otp-box {
+        display: flex;
+        border: 2px solid #dcdcdc;
+        border-radius: 6px;
+        overflow: hidden;
+        height: 48px;
+        background-color: #dcdcdc;
+
+        
+      }
+
+      .otp-box input {
+        flex: 1;
+        border: none;
+        padding: 0 14px;
+        font-size: 15px;
+        outline: none;
+        background: #dcdcdc;
+      }
+
+      .otp-box button {
+       border-width: 1px;
+        background: #f2f2f2;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 0 20px;
+        cursor: pointer;
+        border-left: 2px solid #dcdcdc;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #4d4d4d97;
+      }
+
+      .or {
+        text-align: center;
+        margin: 18px 0;
+        font-weight: 600;
+        color: #444;
+      }
+
+      .right {
+        flex: 1;
+        max-width: 480px;
+        text-align: center;
+      }
+
+      .right-head {
+        font-size: 30px;
+        font-weight: 300;
+        margin: 0 0 20px;
+        text-transform: uppercase;
+      }
+
+      .hero-image {
+        width: 100%;
+        max-width: 480px;
+        display: block;
+        margin: 0 auto 22px;
+      }
+
+      .features-wrap {
+        text-align: left;
+        max-width: 480px;
+        margin: 0 auto;
+      }
+
+      .features-title {
+        font-weight: 700;
+        margin: 6px 0 14px;
+        font-size: 16px;
+      }
+
+      .features-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 18px 36px;
+      }
+
+      .feature {
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+      }
+
+      .feature .icon {
+        width: 32px;
+        height: 32px;
+        flex: 0 0 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .feature .icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .feature .text {
+        font-size: 14px;
+        line-height: 1.4;
+      }
+
+      .loginbutton button {
+        border-width: 1px;
+        background: #ffffff;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px 25px;
+        cursor: pointer;
+        border-left: 2px solid #dcdcdc;
+        border-radius: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 170px;
+        color: #00000097;
+      }
+
+
+      a.forgot {
+        color: #515351;
+      }
+
+    
+    
+      .join-btn {
+  background-color: #3d3d3d;   
+  color: white; 
+  border-radius: 80px;               
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  
+}
+
+
+.center-page-image{
+  width: 100%;
+        max-width: 480px;
+        display: block;
+        margin: 1px auto 5px;
+      
+}
+
+
+
+.footer {
+        background: #fff; /* white background like your screenshot */
+        padding: 40px 60px;
+        border-top: none;
+        font-family: Arial, sans-serif;
+        margin-left: 40px;
+      }
+
+      .footer-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 40px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .footer-column h4 {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 14px;
+        text-transform: uppercase;
+      }
+
+      .footer-column ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .footer-column ul li {
+        margin-bottom: 10px;
+      }
+
+      .footer-column ul li a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #000;
+        transition: color 0.2s;
+      }
+
+      .footer-column ul li a:hover {
+        color: #000000;
+        font-weight: 600;
+      }
+
+
+      .footer-image{
+  width: 100%;
+        max-width: 1500px;
+        display: block;
+        margin: 1px auto 5px;
+      
+}
+
+
+ 
